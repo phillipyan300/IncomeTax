@@ -436,9 +436,14 @@ option3.grid(row=2, column=2)
 option4 = Button(root, text="Compare the effects of different income tax systems on worker productivity", pady = 20, padx = 50, command=open_window4)
 option4.grid(row=3, column=1)
 
-my_img = ImageTk.PhotoImage(Image.open("Taxbetter.jpg"))
+original_img = Image.open("Taxbetter.jpg")
+desired_width = 500
+desired_height = 300
+resized_img = original_img.resize((desired_width, desired_height))
+my_img = ImageTk.PhotoImage(resized_img)
 image_label = Label(image=my_img)
-image_label.grid(row = 4, column =1)
+image_label.grid(row=4, column=1)
+
 
 #Quit Button
 button_quit = Button(root, text = "Exit Program", command = root.quit)
