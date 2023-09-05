@@ -90,7 +90,7 @@ def marg_ave_graph(income_endpoints, taxrate_endpoints):
     elif income_endpoints == peru_income_endpoints:
         w = "in Peru"
     # giving a title to my graph
-    plt.title("Marginal and Average Income Tax Rates as a function of Taxable Income " + w)
+    plt.title("Tax Rates as a function of Taxable Income " + w)
     # naming the x axis
     #MAYBE ADD TAXABLE INCOME IN (YUAN, peso ect)
     plt.xlabel("Taxable Income")

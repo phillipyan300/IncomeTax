@@ -1,2 +1,7 @@
 # IncomeTax
-Using marginal income tax brackets from around the world, a simulation was created that calculates the average tax rate, analyzes tax structures and efficiencies, and determines the effect of fiscal policy on income tax.
+This Tkinter GUI uses marginal income tax brackets from around the world to calculate the average tax rate, analyze tax structures and efficiencies, and determine the effect of fiscal policy on income tax.
+
+## Simulation
+![Simulation](taxGif.gif)
+*Brief tour of the GUI*
+
